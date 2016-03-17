@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Барбершоп «Бородинский»</title>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header class="main-header">
+		<div class="container clearfix">
+			<nav class="main-menu">
+				<ul>
+					<li class="active"><img src="pict/menu-logo.png" alt="Главная" width="111" height="24"></li>
+					<li><a href="" >Информация</a></li>
+					<li><a href="" >Новости</a></li>
+					<li><a href="" >Прайс-лист</a></li>
+					<li><a href="shop.html" >Магазин</a></li>
+					<li><a href="" >Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a class="login" href="">Вход</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container clearfix">
+			<div class="logo">
+				<a href="">
+					<img src="pict/main-logo.png" alt="Барбершоп «Бородинский» " width="368" height="204">
+				</a>
+			</div>
+			<div class="login-form">
+				<h2 class="login-title">Личный кабинет</h2>
+				<p>
+					Введите пожалуйста свой логин и пароль <br>
+					Если вы забыли пароль
+				</p>
+				<form action="">
+					<div class="field">
+						<input type="text" name="login" placeholder="ЛОГИН">
+						<div class="field-icon login-icon"></div>
+					</div>
+					<div class="field">
+						<input type="text" name="pass" placeholder="ПАРОЛЬ">
+						<div class="field-icon pass-icon"></div>
+					</div>
+					<input type="checkbox" name="remember-me" id="remember-me" checked>
+					<label for="remember-me">Запомните меня</label>
+					<a href="">Я забыл пароль!</a>
+					<input type="submit" value="Войти">
+				</form>	
+			</div>
+			<section class="features-row clearfix">
+				<div class="features-item">
+					<div class="features-title">БЫСТРО</div>
+					<p>
+						МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+					</p>
+				</div>
+				<div class="features-item">
+					<div class="features-title">КРУТО</div>
+					<p>
+						ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+					</p>
+				</div>
+				<div class="features-item">
+					<div class="features-title">ДОРОГО</div>
+					<p>
+						НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+					</p>
+				</div>
+			</section>
+			<div class="index-content clearfix">
+				<section class="content-column-left">
+					<h2 class="content-column-title">Новости</h2>
+					<ul class="content-column-news">
+						<li>
+							<a class="news" href="">
+								НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ<br>
+							</a>
+							<time datetime="2015-09-25">25 сентября</time>
+						</li>
+						<li>
+							<a  class="news" href="">
+								В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ<br>
+							</a>
+							<time datetime="2015-09-19">19 сентября</time>
+						</li>
+					</ul>
+					<a href="" class="btn btn-news">Все новости</a>
+				</section>
+				<section class="content-column-right">
+					<h2 class="content-column-title">Фотогалерея</h2>
+					<div class="gallery">
+						<figure class="gallery-content">
+							<a href="">
+								<img src="pict/gallery-photo1.jpg" alt="Наш стильный зал" width="286" height="164">
+							</a>
+						</figure>
+						<button  class="btn gallery-prev ">Назад</button>
+						<button class="btn gallery-next">Вперед</button>
+					</div>
+				</section>
+			</div>
+			<div class="index-content clearfix">
+				<section class="content-column-left">
+					<div class="main-contacts">
+						<h2 class="content-column-title">Контактная информация</h2>
+						<p>
+							БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+							АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+							ТЕЛЕФОН: +7 (495) 666-02-666
+						</p>
+						<p>
+							ВРЕМЯ РАБОТЫ: <br> 
+							ПН — ПТ: С 10:00 ДО 22:00 <br>
+							СБ — ВС: С 10:00 ДО 19:00
+						</p>
+					</div>
+					<a href="" class="btn btn-map">Как проехать</a>
+					<a href="" class="btn btn-feedback">Обратная связь</a>
+				</section>
+				<section class="content-column-right">
+					<div class="appointment-form">
+						<h2 class="content-column-title">Записаться</h2>
+						<p>
+							Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
+						</p>
+						<form action="" method="">
+							<input type="date"  name="date" placeholder="дата">
+							<input type="time" name="time" placeholder="время">
+							<input type="text" name="name" placeholder="ваше имя">
+							<input type="tel" name="tel" placeholder="телефон">
+							<button type="submit" class="btn">отправить</button>
+						</form>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container clearfix">
+			<section class="footer-contacts">
+				БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+				АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+				<a href="">Как нас найти?</a> <br>
+				ТЕЛЕФОН: +7 (495) 666-02-666
+			</section>
+			<section class="footer-social">
+				<p>Давайте дружить!</p>
+				<a href="" class="social-btn social-btn-vk">Вконтакте</a>
+				<a href="" class="social-btn social-btn-fb">Фейсбук</a>
+				<a href="" class="social-btn social-btn-inst">Инстаграмм</a>
+			</section>
+			<section class="footer-copyright">
+				<p>Разработано:</p>
+				<a class="btn" href="" >Volkova.ru</a>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>
